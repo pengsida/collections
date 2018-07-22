@@ -17,5 +17,4 @@
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
-  None
 
