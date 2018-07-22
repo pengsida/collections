@@ -150,7 +150,7 @@ def demo():
     size = len(dataset)
     train_size = size // 5 * 4
     train, test = dataset[:train_size], dataset[train_size:]
-    model = RandomForest(5, 8)
+    model = RandomForest(2, 10)
     model.fit(train)
 
     rec = 0
