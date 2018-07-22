@@ -105,7 +105,7 @@ class DecisionTree(object):
 
     def fit(self, dataset):
         self.N, self.M = dataset.shape[0], dataset.shape[1] - 1
-        self.nr_feat = int(np.sqrt(self.N))
+        self.nr_feat = int(np.sqrt(self.M))
         self.tree = self.build_tree(dataset, depth=self.max_depth)
 
     def predict(self, feat):
@@ -132,7 +132,7 @@ class RandomForest(object):
         return tree
 
     def fit(self, dataset):
-        nr_samples = len(dataset) // 10 * 9
+        nr_samples = len(dataset)
         with Pool(self.nr_trees) as pool:
             data = map(lambda i: np.random.choice(len(dataset), size=nr_samples), range(self.nr_trees))
             data = map(lambda i: dataset[i], data)
@@ -140,23 +140,28 @@ class RandomForest(object):
 
     def predict(self, feat):
         preds = [tree.predict(feat) for tree in self.trees]
-        cls, counts = np.unique(preds, return_counts=True)
-        inds = np.argsort(counts)
-        return cls[inds[-1]]
+        return max(set(preds), key=preds.count)
 
 
 def demo():
     dataset = read_dataset('./sonar.all-data')
+    np.random.shuffle(dataset)
     size = len(dataset)
     train_size = size // 5 * 4
     train, test = dataset[:train_size], dataset[train_size:]
-    model = RandomForest(2, 10)
-    model.fit(train)
 
-    rec = 0
-    for feat in test:
-        rec += int(feat[-1] == model.predict(feat))
-    print('accuracy: {}'.format(rec / len(test)))
+    def test_rf(nr_trees):
+        model = RandomForest(nr_trees)
+        model.fit(train)
+        rec = 0
+        for feat in test:
+            rec += int(feat[-1] == model.predict(feat))
+        print('nr_trees: {}, accuracy: {}'.format(nr_trees, rec / len(test)))
+
+    test_rf(1)
+    test_rf(2)
+    test_rf(5)
+    test_rf(10)
 
 
 if __name__ == '__main__':
