@@ -14,6 +14,8 @@
 8. Kabsch algorithm
 9. RANSAC algorithm
 11. Mean-shift
+12. Quaternion representation
+13. Hough voting
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
