@@ -16,6 +16,7 @@
 11. Mean-shift
 12. Quaternion representation
 13. Hough voting
+14. PnP
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
