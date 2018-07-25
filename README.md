@@ -17,6 +17,7 @@
 12. Quaternion representation
 13. Hough voting
 14. PnP
+15. Point pair feature
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
