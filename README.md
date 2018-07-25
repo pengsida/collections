@@ -18,6 +18,8 @@
 13. Hough voting
 14. PnP
 15. Point pair feature
+16. Semantic segmentation
+    * PoseCNN
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
