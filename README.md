@@ -20,6 +20,8 @@
 15. Point pair feature
 16. Semantic segmentation
     * PoseCNN
+17. Simplex projection
+    * CSPN
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
