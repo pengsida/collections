@@ -22,6 +22,7 @@
     * PoseCNN
 17. Simplex projection
     * CSPN
+18. Hough Forest
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
