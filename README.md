@@ -23,6 +23,7 @@
 17. Simplex projection
     * CSPN
 18. Hough Forest
+19. J-Linkage
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
