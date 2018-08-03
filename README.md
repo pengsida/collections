@@ -24,6 +24,7 @@
     * CSPN
 18. Hough Forest
 19. J-Linkage
+20. CRF energy minimization
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
