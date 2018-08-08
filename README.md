@@ -28,4 +28,5 @@
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
+21. [Non-maximum suppression](./NMS/nms.ipynb)
 
