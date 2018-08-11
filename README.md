@@ -27,6 +27,7 @@
 20. CRF energy minimization
 21. TPS
 22. Distance transform
+23. KNN
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
