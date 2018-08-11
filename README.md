@@ -25,8 +25,8 @@
 18. Hough Forest
 19. J-Linkage
 20. CRF energy minimization
+21. TPS
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
 21. [Non-maximum suppression](./NMS/nms.ipynb)
-
