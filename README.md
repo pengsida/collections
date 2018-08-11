@@ -26,6 +26,7 @@
 19. J-Linkage
 20. CRF energy minimization
 21. TPS
+22. Distance transform
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
