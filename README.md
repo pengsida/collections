@@ -20,6 +20,7 @@
 21. TPS
 22. Distance transform
 23. KNN
+24. Level set
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
