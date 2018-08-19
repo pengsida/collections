@@ -10,9 +10,11 @@
         - point matching loss[2]
     * regress SE(3) transformation
 3. combine classification with regression
+4. regress object coordinates
 
 # reference
 
 [1] Geometric Loss Functions for Camera Pose Regression with Deep Learning
+
 [2] DeepIM: Deep Iterative Matching for 6D Pose Estimation
 
