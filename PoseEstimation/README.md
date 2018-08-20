@@ -1,4 +1,4 @@
-# Common loss functions
+# Common approaches
 
 1. View discretization: classification
 2. Pose regression
@@ -11,6 +11,8 @@
     * regress SE(3) transformation
 3. combine classification with regression
 4. regress object coordinates
+5. fitting
+    * fitting with sparse control points[3]
 
 # reference
 
@@ -18,3 +20,4 @@
 
 [2] DeepIM: Deep Iterative Matching for 6D Pose Estimation
 
+[3] Real-Time Seamless Single Shot 6D Object Pose Prediction
