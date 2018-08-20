@@ -11,6 +11,8 @@
     * regress SE(3) transformation
 3. combine classification with regression
 4. regress object coordinates
+    * use an encoder-decoder network to regress object coordinates
+    * huber loss
 5. fitting
     * fitting with sparse control points[3]
 
