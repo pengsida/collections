@@ -15,6 +15,12 @@
     * huber loss
 5. fitting
     * fitting with sparse control points[3]
+    
+# rotation representation
+
+1. euler angles
+2. quaternions
+3. axis-angle representation[4]
 
 # reference
 
@@ -23,3 +29,5 @@
 [2] DeepIM: Deep Iterative Matching for 6D Pose Estimation
 
 [3] Real-Time Seamless Single Shot 6D Object Pose Prediction
+
+[4] Occlusion Resistant Object Rotation Regression from Point Cloud Segments
