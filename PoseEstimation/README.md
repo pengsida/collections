@@ -15,12 +15,13 @@
     * huber loss
 5. fitting
     * fitting with sparse control points[3]
-    
+
 # rotation representation
 
 1. euler angles
 2. quaternions
 3. axis-angle representation[4]
+4. exponential map, aka Lie algebra
 
 # reference
 
