@@ -22,6 +22,7 @@
 23. KNN
 24. Level set
 25. Metroplis algorithm
+26. [Numerical algorithms](./NR)
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
