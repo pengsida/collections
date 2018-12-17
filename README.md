@@ -24,7 +24,6 @@
 25. Metroplis algorithm
 26. PCA
 27. LDA
-28. [Numerical algorithms](./NR)
 
 # DONE
 10. [Random forest](./RandomForest/random_forest.ipynb)
